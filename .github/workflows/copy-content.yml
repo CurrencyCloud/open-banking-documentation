@@ -3,7 +3,7 @@ name: Copy Content to Release Branches
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   copy-uk-content:
@@ -21,7 +21,7 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git checkout -B uk-docs-release
           git rm -rf .
-          git checkout main -- uk-docs
+          git checkout master -- uk-docs
           git mv uk-docs/* .
           git commit -m "Update UK docs"
           git push origin uk-docs-release --force
@@ -41,7 +41,7 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git checkout -B eu-docs-release
           git rm -rf .
-          git checkout main -- eu-docs
+          git checkout master -- eu-docs
           git mv eu-docs/* .
           git commit -m "Update EU docs"
           git push origin eu-docs-release --force

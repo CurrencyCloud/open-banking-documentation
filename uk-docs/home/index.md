@@ -16,5 +16,6 @@ We are a registered Account Servicing Payment Service Provider (ASPSP) who provi
 - [Sandbox Environment](/perry/developer/documentation?resource=ukhub-tccl-portal&document=docs/40-sandbox.md)
 - [Planned Updates](/perry/developer/documentation?resource=ukhub-tccl-portal&document=docs/50-planned-updates.md)
 - [AISP API Overview](/perry/developer/documentation?resource=ukhub-tccl-portal&document=docs/API%20Overview/ais.md)
+- [PISP API Overview](/perry/developer/documentation?resource=ukhub-tccl-portal&document=docs/API%20Overview/pis.md)
 - [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml)
 - [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/payment-initiation-openapi.yaml)

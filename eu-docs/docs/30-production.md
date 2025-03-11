@@ -6,8 +6,8 @@ Our production authorisation server uses the strict profile defined above and te
 
 ## Authorisation Server URLs
 - OIDC Well Known endpoint: https://auth1.api.tccl.uk-hub-prod.ozoneapi.co.uk/.well-known/openid-configuration
-- baseUrl: https://auth1.api.tccl.uk-hub-prod.ozoneapi.co.uk/
-- Authorisation URL: https://api.tccl.uk-hub-prod.ozoneapi.co.uk/u/openbanking
+- Base URL: https://auth1.api.tccl.uk-hub-prod.ozoneapi.co.uk/
+- Authorisation URL: https://obauth.currencycloud.com/obauth/EU/auth
 
 ## Resource Server URLs
 - Account Information Services API: https://rs1.api.tccl.uk-hub-prod.ozoneapi.co.uk/open-banking/v4/aisp/**
