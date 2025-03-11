@@ -15,6 +15,6 @@ The developer portal is maintained by ozone, this repository provides the conten
 * The UK portal content is served from the `uk-docs-release` branch
 * The EU portal content is served from the `eu-docs-release` branch
 
-Any updates to the documentation should be made in the master branch.
+Any updates to the documentation should be made in the `main` branch.
 
 If the API spec is changed, it is expected to update the swagger definitions checked into this repository.
