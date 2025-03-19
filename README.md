@@ -1,7 +1,7 @@
 # README #
 
-This repository contains the content for the Currencycloud openbanking UK and EU developer portals.
-The portals will primarily be used by third party developers (TPP developers) to consume the openbanking APIs
+This repository contains the content for the Currencycloud Open Banking UK and EU developer portals.
+The portals will primarily be used by TPPs (Third-Party Providers) to consume the Open Banking APIs
 exposed by Ozone (for Currencycloud).
 
 This repository can be used to tailor the content presented to the third party developers including
