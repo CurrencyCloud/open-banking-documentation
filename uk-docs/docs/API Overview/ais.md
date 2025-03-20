@@ -4,10 +4,10 @@
 The base URL for all AIS APIs is: `https://rs1.api.tccl.uk-hub-prod.ozoneapi.co.uk/open-banking/v4/aisp/**`.
 
 ## Account Access Consents
-[Account Access Consents API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Account_Access)
+[Account Access Consents API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Account_Access)
 
 ## Accounts
-[Accounts API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Accounts)
+[Accounts API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Accounts)
 
 Currencycloud members will have one personal account with subaccounts for each wallet.
 
@@ -15,7 +15,7 @@ Currencycloud members will have one personal account with subaccounts for each w
 - Supported fields: `AccountId`, `Status`, `Currency`, `Nickname`, `AccountCategory`, `AccountTypeCode`, `OpeningDate`, `Account[].SchemeName`, `Account[].Identification`,  `Account[].SecondaryIdentification`
 
 ## Balances
-[Balances API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Balances)
+[Balances API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Balances)
 
 Balances shown in this endpoint provide the `InterimAvailable` value.
 
@@ -27,7 +27,7 @@ Currencycloud members will have a balance for each of their wallets.
 - Supported fields: `Amount.Amount`, `Amount.Currency`, `Type`, `AccountId`, `CreditDebitIndicator`, `DateTime`
 
 ## Transactions
-[Transactions API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Transactions)
+[Transactions API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Transactions)
 
 Pagination is supported on the GET `/transactions` endpoint with a page size of 100 transactions.
 
@@ -35,7 +35,7 @@ Pagination is supported on the GET `/transactions` endpoint with a page size of 
 - Supported fields: `AccountId`, `TransactionId`, `CreditDebitIndicator`, `Status`, `BookingDateTime`, `ValueDateTime`, `Amount.Amount`, `Amount.Currency`
 
 ## Beneficiaries
-[Beneficiaries API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Beneficiaries)
+[Beneficiaries API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Beneficiaries)
 
 - Supported API: `/beneficiaries`
 - Supported fields: `AccountId`, `BeneficiaryId`, `Reference`, `CreditorAccount.SchemeName`, `CreditorAccount.Identification`, `CreditorAccount.Name`
@@ -53,13 +53,13 @@ Not supported.
 Not supported.
 
 ## Parties
-[Parties API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Parties)
+[Parties API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Parties)
 
 - Supported API: `/party`
 - Supported fields: `AccountRole`, `LegalStructure`, `BeneficialOwnership`, `EmailAddress`, `FullLegalName`, `Name`, `PartyId`, `Phone`, `Mobile`
 
 ## Scheduled Payments
-[Scheduled Payments API](/perry/developer/documentation?resource=ukhub-tccl-portal&document=swagger/account-info-openapi.yaml#operations-tag-Scheduled_Payments)
+[Scheduled Payments API](/perry/developer/documentation?resource=ukhub-tccl-portal-new&document=swagger/account-info-openapi.yaml#operations-tag-Scheduled_Payments)
 
 - Supported API: `/scheduled-payments`
 - Supported fields: `AccountId`, `ScheduledPaymentId`, `ScheduledPaymentDateTime`, `ScheduledType`, `InstructedAmount.Amount`, `InstructedAmount.Currency` 
