@@ -22,6 +22,11 @@
     },
     {
       "type": "item",
+      "title": "MCI Fallback",
+      "uri": "docs/41-mci-fallback.md"
+    },
+    {
+      "type": "item",
       "title": "Planned Updates",
       "uri": "docs/50-planned-updates.md"
     },
