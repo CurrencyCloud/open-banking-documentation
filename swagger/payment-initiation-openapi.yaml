@@ -2121,7 +2121,7 @@ components:
         ASPSP when a TPP wants to access an ASPSP resource owned by the PSU
       flows:
         authorizationCode:
-          authorizationUrl: https://obauth.currencycloud.com/obauth/auth/auth
+          authorizationUrl: https://obauth.currencycloud.com/obauth/UK/auth
           tokenUrl: https://as1.api.tccl.uk-hub-prod.ozoneapi.co.uk/token
           scopes:
             payments: Generic payment scope
