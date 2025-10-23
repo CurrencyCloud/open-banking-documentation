@@ -26,6 +26,11 @@
       "uri": "docs/50-planned-updates.md"
     },
     {
+      "type": "item",
+      "title": "Performance & Availability Reports",
+      "uri": "docs/51-reports.md"
+    },
+    {
       "type": "divider"
     },
     {
